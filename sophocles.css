@@ -1,0 +1,43 @@
+body 
+{
+    font-family: Arial, sans-serif;
+}
+.speech 
+{
+    font-size: 16px;
+    color: black;
+}
+.direction 
+{
+    font-style: italic;
+    font-size: 14px;
+    color: black;
+    background-color: lightgrey;
+}
+.direction:hover 
+{
+    background-color: yellow;
+    color: red;
+}
+.neoptolemus 
+{
+    color: blue;
+}
+.philoctetes 
+{
+    color: green;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
