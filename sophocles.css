@@ -41,3 +41,7 @@ th, td {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+.neoptolemus:hover, .philoctetes:hover {
+    text-shadow: 2px 2px 5px orange;
+    border: 1px solid purple;
+}
